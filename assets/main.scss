@@ -1,0 +1,18 @@
+---
+---
+
+@import "minima";
+
+body {
+	font-family: "Noto Sans KR", sans-serif;
+	font-weight: 300;
+}
+
+a {
+	color: #166088;
+	font-weight: 500;
+	&:hover {
+		color: #92afd7;
+		text-decoration: none;
+	}
+}
