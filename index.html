@@ -2,31 +2,64 @@
 layout: home
 ---
 
-<div>
-	<div>Hi. I'm Haesoo Kim🌊</div>
-	<p>
-		I'm a Master's student at KAIST School of Computing, and currently a member of
-		<a href="https://www.kixlab.org/">KIXLAB</a>. I'm part of the interdisciplinary track
-		organized by the School of Computing and the Humanities & Social Sciences Department, and am
-		being co-advised by <a href="https://juhokim.com/">Prof. Juho Kim</a> and
-		<a href="https://hss.kaist.ac.kr/boards/view/fulltime_professor_en/77"
-			>Prof. Jeong-woo Jang.</a
-		>
-	</p>
-	<p>
-		My research interests are focused on <strong>Human-Computer Interaction</strong>,
-		specifically around social media and how people utilize and interpret such systems. Other
-		interests include interactive narratives, accessible computing, AI/tech ethics, and fandom
-		studies.
-	</p>
-	<p>
-		Outside of research, I spend my free time reading, singing, playing games and obsessing over
-		something or another.
-	</p>
+<div class="home-wrapper">
+	<div id="image-wrapper">
+		<img
+			id="profile-image"
+			src="/assets/images/profile/hsnu.jpeg"
+			alt="Picture of me with short hair and round glasses, sitting in a meadow with a Dodo bird necklace."
+		/>
+		<div id="profile-caption">Me, during my Humans of SNU Interview</div>
+	</div>
+	<div>
+		<div style="margin-top: 15px; color: #444552">
+			<p style="font-weight: 700; font-size: 20px">Hi. I'm Haesoo Kim 😎</p>
+			<p>
+				I'm a Master's student at KAIST School of Computing, and currently a member of
+				<a href="https://www.kixlab.org/">KIXLAB</a>. I'm part of the interdisciplinary
+				track organized by the School of Computing and the Humanities & Social Sciences
+				Department, and am being co-advised by
+				<a href="https://juhokim.com/">Prof. Juho Kim</a> and
+				<a href="https://hss.kaist.ac.kr/boards/view/fulltime_professor_en/77"
+					>Prof. Jeong-woo Jang.</a
+				>
+			</p>
+			<p>
+				My research interests are focused on <strong>Human-Computer Interaction</strong>,
+				specifically around social media and how people utilize and interpret such systems.
+				Other interests include interactive narratives, accessible computing, AI/tech
+				ethics, and fandom studies.
+			</p>
+			<p>
+				Outside of research, I spend my free time reading, singing, playing games and
+				obsessing over something or another. 😉
+			</p>
+		</div>
+		<div class="more-info">
+			<div class="outlinks">For more about me:</div>
+			<div>
+				<a class="index-button" href="/CV_210318.pdf" target="blank">About</a>
+				<a class="index-button" href="/CV_210318.pdf" target="blank">Curriculum Vitae</a>
+			</div>
+		</div>
+	</div>
 </div>
 
-<div>Education</div>
+<div class="section-wrapper">
+	<div class="section">
+		<div class="section-title">NEWS</div>
 
-<div>Publications</div>
-
-<div>Awards & Honors</div>
+		{% for update in site.data.news %}
+		<div class="news-item">
+			<div class="news-wrapper">
+				<div class="news-title">{{update.title}}</div>
+				<div class="news-date">{{update.date}}</div>
+			</div>
+			<div class="news-desc">{{update.desc}}</div>
+		</div>
+		{% endfor %}
+	</div>
+	<div class="section">
+		<div class="section-title">CURRENT PROJECTS</div>
+	</div>
+</div>
