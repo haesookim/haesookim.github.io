@@ -153,3 +153,47 @@ a {
 strong {
 	font-weight: 600;
 }
+
+.blog {
+	display: grid;
+	grid-template-columns: 200px auto;
+	column-gap: 30px;
+	grid-template-rows: 1fr;
+	@include media-query($on-laptop) {
+		grid-template-rows: auto auto;
+		grid-template-columns: 1fr;
+	}
+}
+
+.blog-side {
+	position: sticky;
+	top: 0px;
+}
+
+.blog-main {
+	min-height: 70vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.pagination a,
+.pagination span {
+	padding: 7px 18px;
+	border: 1px solid #eee;
+	margin-left: -2px;
+	margin-right: -2px;
+	background-color: #ffffff;
+	display: inline-block;
+}
+
+.pagination a {
+	&:hover {
+		background-color: #f1f1f1;
+		color: #333;
+	}
+}
+
+.pagination {
+	text-align: center;
+}

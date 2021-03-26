@@ -26,11 +26,18 @@ url: "https://haesookim.info" # the base hostname & protocol for your site, e.g.
 twitter_username: haesooheatherk
 github_username: haesookim
 
+disqus:
+    shortname: haesookim
+
 # Build settings
 theme: minima
 markdown: kramdown
 plugins:
     - jekyll-feed
+    - jekyll-paginate
+
+paginate: 6
+paginate_path: "/blog/:num/"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
