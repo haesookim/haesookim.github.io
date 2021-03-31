@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: default
 ---
 
@@ -11,8 +11,7 @@ layout: default
 		</div>
 	</div>
 	<div class="blog-main">
-		{% if site.paginate %} {% assign posts = paginator.posts %} {% else %} {% assign posts =
-		site.posts %} {% endif %} {%- if posts.size > 0 -%}
+		{% assign posts = site.categories.bookclub %}
 
 		<ul class="post-list">
 			{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%} {%- for
@@ -60,9 +59,8 @@ layout: default
 					<span>Next &raquo;</span>
 					{% endif %}
 				</div>
-				{% endif %}
 			</div>
 		</div>
 		{%- endif %} {%- endif -%}
 	</div>
-</div> -->
+</div>
