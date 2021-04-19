@@ -5,6 +5,16 @@
 $content-width: 1000px;
 $spacing-unit: 30px;
 
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	h3 {
+		margin-bottom: 0;
+	}
+}
+
 .wrapper {
 	max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
 	max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
@@ -118,7 +128,7 @@ a {
 
 .news-item {
 	padding: 15px 10px;
-	padding-left: 0;
+	//padding-left: 0;
 	.news-wrapper {
 		display: flex;
 		align-items: center;
@@ -154,9 +164,11 @@ strong {
 	font-weight: 600;
 }
 
+// Blog
+
 .blog {
 	display: grid;
-	grid-template-columns: 200px auto;
+	grid-template-columns: 250px auto;
 	column-gap: 30px;
 	grid-template-rows: 1fr;
 	@include media-query($on-laptop) {
@@ -166,15 +178,28 @@ strong {
 }
 
 .blog-side {
-	position: sticky;
-	top: 0px;
+	padding-bottom: 20px;
+	height: fit-content;
+	margin-bottom: 20px;
+	.blog-title {
+		font-weight: 700;
+		color: #3f8efc;
+		margin-bottom: 10px;
+	}
+	.blog-desc {
+		font-size: 14px;
+	}
+	border-bottom: 1px solid #e8e8e8;
 }
 
 .blog-main {
-	min-height: 70vh;
+	min-height: 65vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	@include media-query($on-palm) {
+		min-height: 0;
+	}
 }
 
 .pagination a,
@@ -196,4 +221,55 @@ strong {
 
 .pagination {
 	text-align: center;
+}
+
+a.blog-tag {
+	font-size: 12px;
+	line-height: 12px;
+	color: white;
+	background-color: rgb(175, 174, 174);
+	padding: 2px 10px;
+	border-radius: 10px;
+	&:hover {
+		background-color: gray;
+	}
+}
+
+.post-title {
+	font-size: 30px;
+}
+
+.post-preview {
+	font-size: 14px;
+	color: rgb(173, 173, 173);
+	margin: 15px 0;
+}
+
+.tag-list {
+	margin: 10px 0;
+}
+
+// Footer
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	.footer-col {
+		min-width: 300px;
+		@include media-query($on-palm) {
+			min-width: 0;
+		}
+	}
+	.social-media-list {
+		a {
+			display: flex;
+			flex-wrap: nowrap;
+			align-items: center;
+			justify-content: flex-end;
+			@include media-query($on-palm) {
+				justify-content: flex-start;
+			}
+		}
+	}
 }
