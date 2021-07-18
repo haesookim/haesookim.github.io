@@ -126,7 +126,8 @@ a {
 	}
 }
 
-.news-item {
+.news-item,
+.project-item {
 	padding: 15px 10px;
 	//padding-left: 0;
 	.news-wrapper {
@@ -223,6 +224,18 @@ strong {
 	text-align: center;
 }
 
+.pager {
+	margin-top: 20px;
+}
+
+.post-item {
+	border-bottom: 1px solid #e8e8e8;
+	padding: 15px 0;
+	.post-link {
+		font-size: 20px;
+	}
+}
+
 a.blog-tag {
 	font-size: 12px;
 	line-height: 12px;
@@ -242,11 +255,11 @@ a.blog-tag {
 .post-preview {
 	font-size: 14px;
 	color: rgb(173, 173, 173);
-	margin: 15px 0;
+	margin: 10px 0;
 }
 
 .tag-list {
-	margin: 10px 0;
+	margin: 15px 0;
 }
 
 // Footer

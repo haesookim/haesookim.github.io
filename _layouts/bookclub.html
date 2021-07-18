@@ -7,8 +7,7 @@ layout: default
 		<div class="blog-title">Haesoo's Book Club</div>
 		<div class="blog-desc">
 			I like to read, and I like leaving notes on books I've read even more. So here's a
-			documentation of the books I've read, liked, disliked or didn't feel much about. Some of
-			them have comments added to them.
+			documentation of the books I've read, or <em>really</em> need to read.
 		</div>
 	</div>
 	<div class="blog-main">
@@ -19,11 +18,11 @@ layout: default
 			post in posts -%}
 			<li>
 				<span class="post-meta">{{ post.date | date: date_format }}</span>
-				<h3>
+				<h5>
 					<a class="post-link" href="{{ post.url | relative_url }}">
 						{{ post.title | escape }}
 					</a>
-				</h3>
+				</h5>
 				{%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
 			</li>
 			{%- endfor -%}

@@ -27,8 +27,9 @@ layout: home
 			<p>
 				My research interests are focused on <strong>Human-Computer Interaction</strong>,
 				specifically around social media and how people utilize and interpret such systems.
-				Other interests include interactive narratives, accessible computing, AI/tech
-				ethics, and fandom studies.
+				My main focus is on how online spaces changes the way people communicate, and
+				eventually building safe, accessible online spaces. Other interests include
+				interactive narratives, accessible computing, AI/tech ethics, and fandom studies.
 			</p>
 			<p>
 				Outside of research, I spend my free time reading, singing, playing games and
@@ -61,5 +62,12 @@ layout: home
 	</div>
 	<div class="section">
 		<div class="section-title">CURRENT PROJECTS</div>
+
+		{% for project in site.data.projects %}
+		<div class="project-item">
+			<div class="project-title">{{project.title}}</div>
+			<div class="news-desc">{{project.desc}}</div>
+		</div>
+		{% endfor %}
 	</div>
 </div>

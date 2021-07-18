@@ -51,7 +51,7 @@ layout: default
 					==paginator.page %}
 					<span class="webjeda">{{ page }}</span>
 					{% elsif page == 1 %}
-					<a href="/blog/1">{{ page }}</a>
+					<a href="/blog">{{ page }}</a>
 					{% else %}
 					<a
 						href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}"
