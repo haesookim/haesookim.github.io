@@ -1,5 +1,17 @@
-- title: "🏆 Selected as Outstanding TA of SoC!"
-  desc: "I have been selected as Outstanding TA for Spring 2021 for my effort for CS374"
+- title: "📝 Paper Accepted to CHI 2022 R&R"
+  desc: "Our work, <i>Play With Your Emotions: Exploring Possibilities of Emotions as Game Input in NERO</i> was accepted after R&R to CHI 2022!"
+  date: "Feb 2022"
+
+- title: "🎮 Accepted to CHI 2022 Student Game Competition"
+  desc: "Our work, <i>Play With Your Emotions: Exploring Possibilities of Emotions as Game Input in NERO</i> was accepted to the CHI Student Game Competition🎉. The work was conducted as a part of the GCT742 Innovative Game Design Class in KAIST."
+  date: "Jan 2022"
+
+- title: "📝 Paper Accepted to CHI 2022"
+  desc: "Our work on <i>Cocomix: Leveraging Comments to Improve Webtoon Accessibility for Blind or Low Vision Readers</i> has been conditionally accepted to CHI 2022. The work was led by <a href="https://minahuh.com/">Mina Huh</a>.
+  date: "Nov 2021"
+
+- title: "🏆 Selected as Outstanding TA of SoC"
+  desc: "I have been selected as Outstanding TA for Spring 2021 for my effort for CS374; I had a lot of fun 😄"
   date: "Aug 2021"
 
 - title: "🗣 Attenting CHI 2021"
@@ -7,17 +19,21 @@
   date: "May 2021"
 
 - title: "🎓 Graduated as Valedictorian"
-  desc: "I recieved my Bachelor degree(s) from SNU College of Liberal Studies, and also got awarded Valedictorian."
-  date: "Feb 26, 2021"
+  desc: "I recieved my Bachelor degree(s) from SNU College of Liberal Studies, and also got awarded Valedictorian. (Also was invited to give a <a href="https://cls.snu.ac.kr/board/story/view/15889">speech</a> in the graduation ceremony as well :))"
+  date: "Feb 2021"
+
+- title: "📝 Paper Accepted to CSCW 2021"
+  desc: "Our work on <i>StarryThoughts: Facilitating Diverse Opinion Exploration on Social Issues</i> has been accepted with minor revisions to CSCW 2021. The work was led by <a href="https://minahuh.com/">Hyunwoo Kim</a>.
+  date: "Dec 2020"
 
 - title: "🏃‍♀️ Headed to KAIST"
   desc: "I've been accepted to the Master's program at KAIST School of Computing. Back to KIXLAB!"
-  date: "Sep 10, 2020"
+  date: "Sep 2020"
 
 - title: "🎟 ISC Online Exhibition is Open"
   desc: "I developed the website for the Information Science & Culture department <a href='http://iscexhibition.herokuapp.com'/>online exhibition</a>."
-  date: "June 29, 2020"
+  date: "June 2020"
 
 - title: "🎉 WIP accepted to DIS 2019"
   desc: "Our work on <a href='http://hyeok.me/miro'>MiRO</a> has been accepted to ACM DIS 2019 PWiP Track! Headed to San Diego in the Summer!"
-  date: "June 5, 2019"
+  date: "June 2019"
