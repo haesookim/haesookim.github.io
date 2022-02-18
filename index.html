@@ -50,7 +50,7 @@ layout: home
 	<div class="section">
 		<div class="section-title">NEWS</div>
 
-		{% for update in site.data.news %}
+		{% for update in site.data.news limit: 4 %}
 		<div class="news-item">
 			<div class="news-wrapper">
 				<div class="news-title">{{update.title}}</div>
@@ -63,7 +63,7 @@ layout: home
 	<div class="section">
 		<div class="section-title">CURRENT PROJECTS</div>
 
-		{% for project in site.data.projects %}
+		{% for project in site.data.projects limit: 4 %}
 		<div class="project-item">
 			<div class="project-title">{{project.title}}</div>
 			<div class="news-desc">{{project.desc}}</div>
