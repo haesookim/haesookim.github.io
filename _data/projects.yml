@@ -1,19 +1,25 @@
 - title: "Call-out Culture and Mass Criticism in Online Spaces"
-  # desc: "Call-out culture, or cancel culture, has been a more and more common phenomenon observed in online spaces. In"
+  long: "Call-out culture, or cancel culture, has been a more and more common phenomenon observed in online spaces. In"
   ongoing: true
+  type: research
   link: ""
 
 - title: "AI-dol is not my I-dol"
-  # desc: "How fans interact with real/synthesized representations of their preferred celebrity and how such Fan-AI relationships might influence the Fan-Celebrity dynamic. Collaboration with Eun Kang."
+  desc: "How do fans interact with synthesized representations of the celebrity? How do Fan-AI relationships influence the Fan-Celebrity dynamic in K-pop?"
+  long: "Collaboration with Eun Kang."
   ongoing: true
+  type: research
   link: ""
 
-- title: "Comics A11y : Creating Rich, Scalable Alternative Text for Webtoons"
-  # desc: "Despite the prominence of webtoons in popular media, the accessibility of the image-heavy Observing B/VI user needs when reading Webtoons and developing a rich and adaptive description format. Collaboration with Mina Huh."
-  ongoing: true
+- title: "Comics A11y"
+  desc: "Creating rich, scalable alternative text pipelines for Webtoons"
+  long: "Despite the prominence of webtoons in popular media, the accessibility of the image-heavy Observing B/VI user needs when reading Webtoons and developing a rich and adaptive description format. Collaboration with Mina Huh."
+  ongoing: false
+  type: research
   link: ""
 
-- title: "Mindscope: Stress intervention through algorithmic prediction based on mobile sensor data"
-  desc: ""
-  ongoing: true
+- title: "Mindscope"
+  desc: "Stress intervention through algorithmic prediction based on mobile sensor data"
+  ongoing: false
+  type: research
   link:
