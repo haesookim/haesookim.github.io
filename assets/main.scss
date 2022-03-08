@@ -145,6 +145,16 @@ a {
 			margin-left: 20px;
 			flex-shrink: 0;
 		}
+		
+	}
+	.project-title {
+		font-weight: 500;
+		color: #444552;
+		width: fit-content;
+	}
+	.prj-desc {
+		color: #797979;
+		font-size: 12px;
 	}
 	.news-desc {
 		color: #797979;
