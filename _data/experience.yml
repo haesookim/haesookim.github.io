@@ -1,0 +1,32 @@
+- name: KAIST Interaction Lab
+  url: https://www.kixlab.org/
+  desc: "KAIST"
+  advisor:
+    - name: "Juho Kim"
+      url: https://juhokim.com/
+  position: "Master's Student"
+  time: "2021 - Present"
+
+- name: Lifelike
+  url: https://lifelike.so/
+  desc: "Grinder"
+  position: "Product Designer, Front-end Developer"
+  time: "2020 - 2021"
+
+- name: KAIST Interaction Lab
+  url: https://www.kixlab.org/
+  desc: "KAIST"
+  advisor:
+    - name: "Juho Kim"
+      url: https://juhokim.com/
+  position: "Undergraduate Research Intern"
+  time: "2019 - 2020"
+
+- name: DxD Lab
+  url: https://dxd-lab.github.io/
+  desc: "Seoul National University"
+  advisor:
+    - name: "Hwajung Hong"
+      url: "https://www.notion.so/Hwajung-Hong-cc10b0291bbe4ca38dbf4882cd687423"
+  position: "Undergraduate Research Intern"
+  time: "2018 - 2020"

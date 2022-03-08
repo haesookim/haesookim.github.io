@@ -22,11 +22,71 @@ permalink: /about/
 	I'm also a firm believer in helping people, as well as making the world a better place. 
 </p>
 
+<div style="margin-bottom:80px;"></div>
+
 <!-- Education -->
+<div class="about-grid section">
+	<div class="section-title">EDUCATION</div>
+	<div class="about-content">
+		{% for item in site.data.education %}
+		<div class="about-item">
+			<div style="display: flex; align-items: flex-end; flex-wrap: wrap;">
+				<a class="institute" href={{item.url}}>{{item.institute}}</a>
+				<div class="dept">{{item.desc}}</div>
+			</div>
+			<div class="time"><i>{{item.time}}</i></div>
+			<div class="about-wrapper">
+				<div class="major">
+					{% for major in item.major %}
+					<div>{{major.degree}} in <a href={{major.url}}> {{major.title}}</a></div>
+					{% endfor %}
+				</div>
+				{% if item.advisor != null %}
+				<div class="advisor">
+					Advised by 
+
+					{% if item.advisor.size >= 2 %}
+						{% for advisor in item.advisor %}
+							<a href={{advisor.url}}>{{advisor.name}}</a>{% unless forloop.last %}, {% endunless %}
+						{% endfor %}
+					{% endif %}
+				</div>
+				{% endif %}
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+
 
 <!-- Academic services -->
 
 <!-- Work Experience -->
+<div class="about-grid section">
+	<div class="section-title">EXPERIENCE</div>
+	<div class="about-content">
+		{% for item in site.data.experience %}
+		<div class="about-item">
+			<div style="display: flex; align-items: flex-end; flex-wrap: wrap;">
+				<a class="institute" href={{item.url}}>{{item.name}}</a>
+				<div class="dept">{{item.desc}}</div>
+			</div>
+			<div class="time"><i>{{item.time}}</i></div>
+			<div class="about-wrapper">
+				<div>{{item.position}}</div>
+				{% if item.advisor != null %}
+				<div class="advisor">
+					Advised by 
+						{% for advisor in item.advisor %}
+							<a href={{advisor.url}}>{{advisor.name}}</a>
+						{% endfor %}
+				</div>
+				{% endif %}
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>
 
 <!-- Misc. Activities -->
 

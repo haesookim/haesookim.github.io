@@ -1,0 +1,30 @@
+- institute: KAIST
+  degree: M.S
+  major:
+    - title: "Computer Science"
+      url: https://soc.kaist.ac.kr/
+      degree: M.S
+  url: https://kaist.ac.kr/
+  time: "2021 - Present"
+  advisor: 
+    - name: "Juho Kim"
+      url: https://juhokim.com/
+    - name: "Jeong-woo Jang"
+      url: https://hss.kaist.ac.kr/boards/view/fulltime_professor_en/77
+  desc: School of Computing
+  
+
+- institute: Seoul National University
+  major: 
+    - title: "Computer Science and Engineering"
+      url: https://cse.snu.ac.kr/
+      degree: B.E
+    - title: "Psychology"
+      url: http://psych.snu.ac.kr/
+      degree: B.A
+    - title: "Information Science and Culture (Interdisciplinary Major)"
+      degree: B.A
+      url: https://isc.snu.ac.kr/
+  url: https://cls.snu.ac.kr/
+  time: "2016 - 2020"
+  desc: College of Liberal Studies

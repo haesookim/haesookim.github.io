@@ -1,6 +1,112 @@
 ---
-layout: projects
+layout: default
 title: Publications
 ---
 
-<div>Publications</div>
+<div class="pubs-grid section">
+	<div class="section-title">CONFERENCE <br/>& JOURNAL PAPERS</div>
+	<div class="pubs-content">
+		{% for item in site.data.publications.papers %}
+		<div class="item">
+            <div class="title">{{item.title}}</div>
+            <div class="authors">
+                {{ item.author | markdownify }}
+            </div>
+            <div class="venue">
+                {{ item.venue }}
+            </div>
+            <div class="links">
+                {% if item.file != null %}
+                    <div>
+                        <i class="fa-solid fa-file"></i>
+                        <a href={{item.file}}>Paper</a>
+                    </div>
+                {% endif %}
+
+                {% if item.system-url != null %}
+                    <div>
+                        <i class="fa-solid fa-link"></i>
+                        <a href={{item.system-url}}>System</a>
+                    </div>
+                {% endif %}
+
+                {% if item.prj-url != null %}
+                    <div>
+                        <i class="fa-solid fa-link"></i>
+                        <a href={{item.prj-url}}>Project Website</a>
+                    </div>
+                {% endif %}
+
+                {% if item.dl-url != null %}
+                    <div>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                        <a href={{item.dl-url}}>ACM DL</a>
+                    </div>
+                {% endif %}
+
+                {% if item.video != null %}
+                    <div>
+                        <i class="fa-solid fa-video"></i>
+                        <a href={{item.video}}>Video</a>
+                    </div>
+                {% endif %}
+            </div>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+
+
+<div class="pubs-grid section">
+	<div class="section-title">POSTERS <br/>& WORKSHOPS</div>
+	<div class="pubs-content">
+		{% for item in site.data.publications.posters %}
+		<div class="item">
+            <div class="title">{{item.title}}</div>
+            <div class="authors">
+                {{ item.author | markdownify }}
+            </div>
+            <div class="venue">
+                {{ item.venue }}
+            </div>
+        <div class="links">
+            {% if item.file != null %}
+                <div>
+                    <i class="fa-solid fa-file"></i>
+                    <a href={{item.file}}>Paper</a>
+                </div>
+            {% endif %}
+
+            {% if item.system-url != null %}
+                <div>
+                    <i class="fa-solid fa-link"></i>
+                    <a href={{item.system-url}}>System</a>
+                </div>
+            {% endif %}
+
+            {% if item.prj-url != null %}
+                <div>
+                    <i class="fa-solid fa-link"></i>
+                    <a href={{item.prj-url}}>Project Website</a>
+                </div>
+            {% endif %}
+
+            {% if item.dl-url != null %}
+                <div>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                    <a href={{item.dl-url}}>ACM DL</a>
+                </div>
+            {% endif %}
+
+            {% if item.video != null %}
+                <div>
+                    <i class="fa-solid fa-video"></i>
+                    <a href={{item.video}}>Video</a>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+		{% endfor %}
+	</div>
+</div>
+

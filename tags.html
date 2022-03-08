@@ -1,10 +1,9 @@
 ---
 layout: page
 permalink: /tags/
-title: Tag
 ---
 
-<ul class="tag-cloud">
+<div class="tag-cloud">
 	{% for tag in site.tags %}
 
 	<!-- tag_name 변수 지정: 태그명은 소문자화(slugize) 한다 -->
@@ -12,14 +11,15 @@ title: Tag
 	<!-- tag_size 변수 지정-->
 	{% capture tag_size %}{{tag|last|size}}{% endcapture %}
 
-	<li>
+	<div>
 		<a href="#{{tag_name}}" onclick="showTag('#{{tag_name}}')"> {{tag_name}} ({{tag_size}}) </a>
-	</li>
+	</div>
 
 	{% endfor %}
-</ul>
+</div>
 
 <div id="archives">
+	{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 	{% for tag in site.tags %} {% capture tag_name %}{{tag|first|slugize}}{% endcapture %}
 
 	<div class="archive-group" style="display: none" id="{{tag_name}}">
@@ -27,10 +27,12 @@ title: Tag
 
 		{% for post in site.tags[tag_name] %}
 		<article class="archive-item">
+			
 			<h4>
 				<!-- click 하여 show/hide 한다 -->
 				<a href="{{ root_url }}{{ post.url }}"> {{post.title}} </a>
 			</h4>
+			<span class="post-meta">{{ post.date | date: date_format }}</span>
 		</article>
 		{% endfor %}
 	</div>
