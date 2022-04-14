@@ -6,16 +6,15 @@
       degree: M.S
   url: https://kaist.ac.kr/
   time: "2021 - Present"
-  advisor: 
+  advisor:
     - name: "Juho Kim"
       url: https://juhokim.com/
     - name: "Jeong-woo Jang"
       url: https://hss.kaist.ac.kr/boards/view/fulltime_professor_en/77
   desc: School of Computing
-  
 
 - institute: Seoul National University
-  major: 
+  major:
     - title: "Computer Science and Engineering"
       url: https://cse.snu.ac.kr/
       degree: B.E
