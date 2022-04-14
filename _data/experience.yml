@@ -2,8 +2,10 @@
   url: https://www.kixlab.org/
   desc: "KAIST"
   advisor:
-    - name: "Juho Kim"
-      url: https://juhokim.com/
+      - name: "Juho Kim"
+        url: https://juhokim.com/
+      - name: "Jeong-woo Jang"
+        url: https://hss.kaist.ac.kr/boards/view/fulltime_professor_en/77
   position: "Master's Student"
   time: "2021 - Present"
 
@@ -17,8 +19,10 @@
   url: https://www.kixlab.org/
   desc: "KAIST"
   advisor:
-    - name: "Juho Kim"
-      url: https://juhokim.com/
+      - name: "Juho Kim"
+        url: https://juhokim.com/
+      - name: "Hyunwoo Kim"
+        url: https://hyunwoo.me/
   position: "Undergraduate Research Intern"
   time: "2019 - 2020"
 
@@ -26,7 +30,7 @@
   url: https://dxd-lab.github.io/
   desc: "Seoul National University"
   advisor:
-    - name: "Hwajung Hong"
-      url: "https://www.notion.so/Hwajung-Hong-cc10b0291bbe4ca38dbf4882cd687423"
+      - name: "Hwajung Hong"
+        url: "https://www.notion.so/Hwajung-Hong-cc10b0291bbe4ca38dbf4882cd687423"
   position: "Undergraduate Research Intern"
   time: "2018 - 2020"
