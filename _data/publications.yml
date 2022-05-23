@@ -1,21 +1,31 @@
 topics:
-- social-computing
-- xai
-- data-driven
-- gaming
-- accessibility
-- mental-health
+  - social-computing
+  - xai
+  - data-driven
+  - gaming
+  - accessibility
+  - mental-health
 
 types:
 
-
 papers:
+  - title: "When Does it Become Harassment?: An Investigation of Online Criticism and Calling Out in Twitter"
+    year: 2022
+    author: "*Haesoo Kim*, Haeeun Kim, Juho Kim, Jeong-woo Jang"
+    venue: "CSCW 2022 (to appear)"
+    type: paper
+    dl-url:
+    system-url:
+    file: "https://haesookim.info/assets/files/cscw22_callout.pdf"
+    topics:
+      - social-computing
+
   - title: "Prediction for Retrospection: Integrating Algorithmic Stress Prediction into Personal Informatics Systems for College Students' Mental Health"
     year: 2022
     author: "Taewan Kim, *Haesoo Kim*, Hayeon Lee, Hwarang Goh, Shakhboz Abdigapporov, Mingon Jeong, Hyunsung Cho, Kyungsik Han, Youngtae Noh, Sung-Ju Lee, Hwajung Hong"
-    venue: "CHI 2022 (to appear)"
+    venue: "CHI 2022"
     type: paper
-    dl-url: 
+    dl-url:
     system-url:
     file:
     topics:
@@ -26,9 +36,9 @@ papers:
   - title: "Cocomix: Leveraging Comments to Improve Webtoon Accessibility for Blind or Low Vision Readers"
     year: 2022
     author: "Mina Huh, Yunjung Lee, Dasom Choi, *Haesoo Kim*, Uran Oh, Juho Kim"
-    venue: "CHI 2022 (to appear)"
+    venue: "CHI 2022"
     type: paper
-    dl-url: 
+    dl-url:
     system-url:
     file: https://kixlab.github.io/website-files/2022/chi2022-Cocomix-paper.pdf
     topics:
@@ -52,16 +62,16 @@ papers:
 posters:
   - title: "Play With Your Emotions: Exploring Possibilities of Emotions as Game Input in NERO"
     year: 2022
-    author: "Valérie Erb, *Haesoo Kim*, Tatiana Chibisova, Jeongmi Lee, Young-Yim Doh"
+    author: "Valérie Erb, Tatiana Chibisova, *Haesoo Kim*, Jeongmi Lee, Young-Yim Doh"
     venue: "CHI 2022 Student Game Competition"
     type: poster
-    dl-url: 
-    system-url: 
-    file: 
+    dl-url:
+    system-url:
+    file:
     topics:
       - gaming
       - mental-health
-  
+
   - title: "The Implementation of MiRO, a Media-as-Place Computer Game"
     year: 2019
     author: "Hyeok Kim, *Haesoo Kim*, Youngjin Kwon, Hansol Jang, Soomin Lee, Joonhwan Lee"
@@ -69,7 +79,7 @@ posters:
     type: poster
     dl-url: "https://dl.acm.org/doi/10.1145/3301019.3323881"
     system-url: "http://hyeok.me/miro"
-    file: 
+    file:
     topics:
       - gaming
 
@@ -78,8 +88,8 @@ posters:
     author: "*Haesoo Kim*, Hyein Kim, Hyejung Park, Minchang Seok"
     venue: "HCI Korea 2020 Creative Awards"
     type: poster
-    dl-url: 
-    system-url: 
-    file: 
+    dl-url:
+    system-url:
+    file:
     topics:
       - social-computing
