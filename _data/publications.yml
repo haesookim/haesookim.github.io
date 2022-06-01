@@ -25,9 +25,9 @@ papers:
     author: "Taewan Kim, *Haesoo Kim*, Hayeon Lee, Hwarang Goh, Shakhboz Abdigapporov, Mingon Jeong, Hyunsung Cho, Kyungsik Han, Youngtae Noh, Sung-Ju Lee, Hwajung Hong"
     venue: "CHI 2022"
     type: paper
-    dl-url:
+    dl-url: "https://dl.acm.org/doi/abs/10.1145/3491102.3517701"
     system-url:
-    file:
+    file: "https://haesookim.info/assets/files/chi22_mindscope.pdf"
     topics:
       - xai
       - data-driven
@@ -38,9 +38,9 @@ papers:
     author: "Mina Huh, Yunjung Lee, Dasom Choi, *Haesoo Kim*, Uran Oh, Juho Kim"
     venue: "CHI 2022"
     type: paper
-    dl-url:
+    dl-url: "https://dl.acm.org/doi/abs/10.1145/3491102.3502081"
     system-url:
-    file: https://kixlab.github.io/website-files/2022/chi2022-Cocomix-paper.pdf
+    file: "https://kixlab.github.io/website-files/2022/chi2022-Cocomix-paper.pdf"
     topics:
       - accessibility
       - data-driven
@@ -60,14 +60,26 @@ papers:
       - data-driven
 
 posters:
+  - title: “Learnersourcing Modular and Dynamic Multiple Choice Questions”
+    year: 2022
+    author: "*Haesoo Kim*, Inhwa Song, Juho Kim"
+    venue: "L@S 2022 Workshop on Learnersourcing Student Generated Content"
+    type: poster
+    dl-url:
+    system-url:
+    file: "https://kixlab.github.io/website-files/2022/l@s2022-workshop-Kuiz-paper.pdf"
+    topics:
+      - learning
+      - social-computing
+
   - title: "Play With Your Emotions: Exploring Possibilities of Emotions as Game Input in NERO"
     year: 2022
     author: "Valérie Erb, Tatiana Chibisova, *Haesoo Kim*, Jeongmi Lee, Young-Yim Doh"
     venue: "CHI 2022 Student Game Competition"
     type: poster
-    dl-url:
+    dl-url: "https://dl.acm.org/doi/abs/10.1145/3491101.3516485"
     system-url:
-    file:
+    file: "https://haesookim.info/assets/files/chi22_nero.pdf"
     topics:
       - gaming
       - mental-health
