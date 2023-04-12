@@ -1,4 +1,5 @@
 topics:
+  - system-building
   - social-computing
   - xai
   - data-driven
@@ -12,9 +13,9 @@ papers:
   - title: "When Does it Become Harassment?: An Investigation of Online Criticism and Calling Out in Twitter"
     year: 2022
     author: "*Haesoo Kim*, Haeeun Kim, Juho Kim, Jeong-woo Jang"
-    venue: "CSCW 2022 (to appear)"
+    venue: "CSCW 2022"
     type: paper
-    dl-url:
+    dl-url: https://dl.acm.org/doi/abs/10.1145/3555575
     system-url:
     file: "https://haesookim.info/assets/files/cscw22_callout.pdf"
     topics:
@@ -29,6 +30,7 @@ papers:
     system-url:
     file: "https://haesookim.info/assets/files/chi22_mindscope.pdf"
     topics:
+      - system-building
       - xai
       - data-driven
       - mental-health
@@ -42,6 +44,7 @@ papers:
     system-url:
     file: "https://kixlab.github.io/website-files/2022/chi2022-Cocomix-paper.pdf"
     topics:
+      - system-building
       - accessibility
       - data-driven
 
@@ -56,10 +59,34 @@ papers:
     video: "https://www.youtube.com/watch?v=LVQ49kUv8Y0"
     file: https://kixlab.github.io/website-files/2021/cscw2021-StarryThoughts-paper.pdf
     topics:
+      - system-building
       - social-computing
       - data-driven
 
 posters:
+  - title: "Towards an Experience-Centric Paradigm of Online Harassment: Responding to Calling out and Networked Harassment"
+    year: 2023
+    author: "*Haesoo Kim*, Juhoon Lee, Juho Kim, Jeong-woo Jang"
+    venue: "CHI 2023 Workshop on Combating Toxicity, Harassment, and Abuse in Online Social Spaces"
+    type: poster
+    dl-url:
+    system-url:
+    file:
+    topics:
+      - system-building
+      - social-computing
+
+  - title: "When AI Meets the K-Pop culture: A case study of fans’ perception of AI Private Call"
+    year: 2022
+    author: "Eun Jeong Kang, *Haesoo Kim*, Hyunwoo Kim, Juho Kim"
+    venue: "NeurIPS 2022 Workshop on Cultures in AI/AI in Culture"
+    type: poster
+    dl-url:
+    system-url:
+    file: "https://ai-cultures.github.io/papers/when_ai_meets_the_k_pop_cultur.pdf"
+    topics:
+      - fandom
+
   - title: "Learnersourcing Modular and Dynamic Multiple Choice Questions"
     year: 2022
     author: "*Haesoo Kim*, Inhwa Song, Juho Kim"
@@ -69,6 +96,7 @@ posters:
     system-url:
     file: "https://kixlab.github.io/website-files/2022/l@s2022-workshop-Kuiz-paper.pdf"
     topics:
+      - system-building
       - learning
       - social-computing
 
@@ -93,6 +121,7 @@ posters:
     system-url: "http://hyeok.me/miro"
     file:
     topics:
+      - system-building
       - gaming
 
   - title: "Zipsarang: A Social Media Platform to Facilitate Adoption of Abandoned Animals"
@@ -104,4 +133,5 @@ posters:
     system-url:
     file:
     topics:
+      - system-building
       - social-computing
