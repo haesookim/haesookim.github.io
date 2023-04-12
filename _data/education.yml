@@ -1,3 +1,16 @@
+- institute: Cornell University
+  degree: Ph.D
+  major:
+    - title: "Information Science"
+      url: https://infosci.cornell.edu/
+      degree: Ph.D
+  url: https://cornell.edu/
+  time: "Sep 2023 - "
+  advisor:
+    - name: "Natalie Bazarova"
+      url: https://juhokim.com/
+  desc: College of Computing and Information Science
+
 - institute: KAIST
   degree: M.S
   major:
@@ -5,7 +18,7 @@
       url: https://soc.kaist.ac.kr/
       degree: M.S
   url: https://kaist.ac.kr/
-  time: "2021 - Present"
+  time: "Mar 2021 - Feb 2023"
   advisor:
     - name: "Juho Kim"
       url: https://juhokim.com/
@@ -25,5 +38,5 @@
       degree: B.A
       url: https://isc.snu.ac.kr/
   url: https://cls.snu.ac.kr/
-  time: "2016 - 2020"
+  time: "Mar 2016 - Feb 2021"
   desc: College of Liberal Studies
