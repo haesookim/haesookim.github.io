@@ -1,3 +1,11 @@
+- name: Cornell Social Media Lab
+  url: https://socialmedialab.cornell.edu/
+  desc: "KAIST"
+  advisor:
+    - name: "Natalie Bazarova"
+  position: "Ph.D Student"
+  time: "2023 - present"
+
 - name: KAIST Interaction Lab
   url: https://www.kixlab.org/
   desc: "KAIST"
@@ -7,7 +15,7 @@
     - name: "Jeong-woo Jang"
       url: https://hss.kaist.ac.kr/boards/view/fulltime_professor_en/77
   position: "Master's Student"
-  time: "2021 - Present"
+  time: "2021 - 2023"
 
 - name: Lifelike
   url: https://lifelike.so/
