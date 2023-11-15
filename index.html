@@ -14,8 +14,7 @@ layout: home
 		<div style="margin-top: 15px; color: #444552">
 			<p style="font-weight: 700; font-size: 20px">Hi. I'm Haesoo Kim 😎</p>
 			<p>
-				I'm currently working on my Ph.D in Information Science at Cornell University. and will be
-				joining the
+				I'm currently working on my Ph.D in Information Science at Cornell University, member of the
 				<a href="https://socialmedialab.cornell.edu/">Social Media Lab</a> led by Prof. Natalie
 				Bazarova.
 			</p>
@@ -27,9 +26,10 @@ layout: home
 				fandom studies.
 			</p>
 			<p>
-				Previously, I earned a Bachelor's degree at Seoul National University College of Liberal
-				Studies. I also have a Master's degree at KAIST School of Computing, co-advised by
-				<a href="https://juhokim.com/">Prof. Juho Kim</a> and
+				Previously, I earned Bachelor's degrees in <strong>Computer Science & Engineering</strong>,
+				<strong>Psychology</strong>, and <strong>Information Science & Culture</strong> at Seoul
+				National University College of Liberal Studies. I also have a Master's degree at KAIST
+				School of Computing, co-advised by <a href="https://juhokim.com/">Prof. Juho Kim</a> and
 				<a href="https://hss.kaist.ac.kr/boards/view/fulltime_professor_en/77"
 					>Prof. Jeong-woo Jang</a
 				>
@@ -51,11 +51,12 @@ layout: home
 	</div>
 </div>
 
-<div class="section-wrapper">
-	<div class="section">
-		<div class="section-title">NEWS</div>
+<!-- <div class="section-wrapper"> -->
+<div class="section">
+	<div class="section-title">NEWS</div>
 
-		{% for update in site.data.news limit: 5 %}
+	<div class="section-wrapper">
+		{% for update in site.data.news limit: 6 %}
 		<div class="news-item">
 			<div class="news-wrapper">
 				<div class="news-title">{{update.title}}</div>
@@ -65,7 +66,8 @@ layout: home
 		</div>
 		{% endfor %}
 	</div>
-	<div class="section">
+</div>
+<!-- <div class="section">
 		<div class="section-title">CURRENT PROJECTS</div>
 
 		{% for project in site.data.projects limit: 5 %}
@@ -74,5 +76,5 @@ layout: home
 			<div class="prj-desc">{{project.desc}}</div>
 		</div>
 		{% endfor %}
-	</div>
-</div>
+	</div> -->
+<!-- </div> -->

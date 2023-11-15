@@ -8,26 +8,30 @@ permalink: /about/
 
 <!-- Me as a Person -->
 <p>
-	My friends like to describe me as a serial enthusiast - my most defining
-	characteristic is the enthusiasm I show to most of the things I love. Be it
-	research, friends, music, games; I don't do things halfway. That's probably
-	why I enjoy being in research so much, since in its essence it's an endeavor
-	in going to extra lengths to get answers to the things you're curious about.
+	My friends like to describe me as a serial enthusiast - my most defining characteristic is the
+	enthusiasm I show to most of the things I love. Be it research, friends, music, games; I don't do
+	things halfway. That's probably why I enjoy being in research so much, since in its essence it's
+	an endeavor in going to extra lengths to get answers to the things you're curious about.
 </p>
 
 <p>
-	<strong>Why study HCI?</strong> I've always been interested in viewing the
-	world through the diverse lenses of various disciplines. I've also been
-	perpetually interested in 'people', and how each individual has their own
-	perspective and story to share. This led me to activities that allowed me to
-	dive into the stories of the people around us, such as Humans of SNU, LAS and
+	<strong>Why study HCI?</strong> I've always been interested in viewing the world through the
+	diverse lenses of various disciplines. I've also been perpetually interested in 'people', and how
+	each individual has their own perspective and story to share. This led me to activities that
+	allowed me to dive into the stories of the people around us, such as Humans of SNU, LAS and
 	others.
 </p>
 
 <p>
-	I'm also a firm believer in helping people, as well as making the world a
-	better place.
+	<strong>Why social media?</strong> One could call me a perpetually online person - much of my
+	interests and values, as well as awareness on social issues have been facilitated through my
+	experiences and interactions with people online. Online communities have allowed me to learn,
+	discover aspects of myself that I never knew, meet new people, and so much more. Novel behaviors
+	and values are often developed through human interactions in these online spaces, and I would like
+	to explore how these communities influence or mediate this process.
 </p>
+
+<p>I'm also a firm believer in helping people, as well as making the world a better place.</p>
 
 <div style="margin-bottom: 80px"></div>
 
@@ -74,10 +78,9 @@ permalink: /about/
 				<div>{{item.position}}</div>
 				{% if item.advisor != null %}
 				<div class="advisor">
-					Advised by {% if item.advisor.size >= 2 %} {% for advisor in
-					item.advisor %}
-					<a href="{{advisor.url}}">{{advisor.name}}</a>{% unless forloop.last
-					%}, {% endunless %} {% endfor %} {% endif %}
+					Advised by {% if item.advisor.size >= 2 %} {% for advisor in item.advisor %}
+					<a href="{{advisor.url}}">{{advisor.name}}</a>{% unless forloop.last %}, {% endunless %}
+					{% endfor %} {% endif %}
 				</div>
 				{% endif %}
 			</div>

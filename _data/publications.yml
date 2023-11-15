@@ -6,10 +6,28 @@ topics:
   - gaming
   - accessibility
   - mental-health
+  - identity
 
 types:
 
 papers:
+  - title: "The Double-edged Influence of Self-expansion in the Metaverse: A Two-wave Panel Assessment of Identity Perception, Self-esteem and Life Satisfaction"
+    year: 2023
+    author: Soeun Yang* , *Haesoo Kim*\*, Minwoo Song, Seunghyun Lee, Jeong-woo Jang
+    venue: "Cyberpsychology, Behavior, and Social Networking (to appear)"
+    type: paper
+    topics:
+      - social-computing
+      - identity
+
+  - title: "Re:SPect: Enabling Active and Scalable Responses to Networked Online Harassment"
+    year: 2023
+    author: "*Haesoo Kim*, Juhoon Lee, Jeong-woo Jang, Juho Kim"
+    venue: "CSCW 2024 (To appear)"
+    type: paper
+    topics:
+      - social-computing
+
   - title: "When Does it Become Harassment?: An Investigation of Online Criticism and Calling Out in Twitter"
     year: 2022
     author: "*Haesoo Kim*, Haeeun Kim, Juho Kim, Jeong-woo Jang"
