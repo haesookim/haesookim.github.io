@@ -145,7 +145,6 @@ a {
 			margin-left: 20px;
 			flex-shrink: 0;
 		}
-		
 	}
 	.project-title {
 		font-weight: 500;
@@ -174,61 +173,134 @@ strong {
 	font-weight: 600;
 }
 
-
 // About
 
-.about-grid{
+.about-grid {
 	display: grid;
 	grid-template-columns: 200px auto;
 	column-gap: 60px;
 	font-size: 16px;
 	margin-top: 40px;
-	.section-title{
+	.section-title {
 		margin: 0;
 		justify-self: end;
 		align-self: start;
 		font-size: 14px;
 		padding-top: 4px;
 	}
-	.about-item{
+	.about-item {
 		margin-bottom: 16px;
-		display:grid;
+		display: grid;
 		grid-template-columns: 1fr 100px;
-		.institute{
+		.institute {
 			font-size: 18px;
 			font-weight: 700;
 		}
-		.time{
-			color:rgb(119, 119, 119);
+		.time {
+			color: rgb(119, 119, 119);
 			font-size: 14px;
 			justify-self: end;
 		}
-		.institute{
+		.institute {
 			margin-right: 8px;
 		}
-		.dept{
+		.dept {
 			margin-bottom: 3px;
 			font-size: 12px;
-			color:rgb(119, 119, 119);
+			color: rgb(119, 119, 119);
 		}
-		.about-wrapper div{
+		.about-wrapper div {
 			font-size: 14px;
-			a{
+			a {
 				font-weight: 300;
 			}
 		}
 	}
 	@include media-query($on-palm) {
 		grid-template-columns: auto;
-		margin-top: 0;;
-		.section-title{
+		margin-top: 0;
+		.section-title {
 			justify-self: start;
 			margin-bottom: 8px;
 		}
-		.about-item{
+		.about-item {
 			margin-left: 8px;
 		}
-		.about-wrapper{
+		.about-wrapper {
+			grid-column-start: 1;
+			grid-column-end: 3;
+		}
+	}
+}
+
+// Projects
+
+.section-subtitle {
+	color: gray;
+	margin-bottom: 3em;
+}
+#project-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 1em;
+	row-gap: 1em;
+	word-break: keep-all;
+
+	.project-title {
+		font-size: 14px;
+	}
+	.project-item {
+		height: fit-content;
+		border: 1px solid gray;
+		.project-title {
+			color: #3f8efc;
+			margin: 8px 0;
+		}
+		.project-desc {
+			font-size: 12px;
+		}
+
+		.links {
+			color: #3f8efc;
+			display: flex;
+			flex-wrap: wrap;
+			font-size: 12px;
+			margin: 4px 0;
+			div {
+				margin-right: 8px;
+			}
+			i {
+				margin-right: 4px;
+			}
+		}
+
+		.tag-wrapper {
+			display: flex;
+			flex-wrap: wrap;
+
+			.project-tag {
+				background-color: #74adfc;
+				color: white;
+				// font-weight: 500;
+				font-size: 10px;
+				padding: 2px 8px;
+				margin-right: 4px;
+				margin-bottom: 4px;
+				border-radius: 30px;
+			}
+		}
+	}
+	@include media-query($on-palm) {
+		grid-template-columns: auto;
+		margin-top: 0;
+		.section-title {
+			justify-self: start;
+			margin-bottom: 8px;
+		}
+		.about-item {
+			margin-left: 8px;
+		}
+		.about-wrapper {
 			grid-column-start: 1;
 			grid-column-end: 3;
 		}
@@ -237,14 +309,14 @@ strong {
 
 // Publications
 
-.pubs-grid{
+.pubs-grid {
 	display: grid;
 	grid-template-columns: 200px auto;
 	column-gap: 60px;
 	font-size: 16px;
 	margin-top: 40px;
 	margin-bottom: 20px;
-	.section-title{
+	.section-title {
 		margin: 0;
 		justify-self: end;
 		text-align: end;
@@ -253,52 +325,51 @@ strong {
 		padding-top: 4px;
 	}
 
-	.pubs-content{
-		.item{
-			margin-bottom:20px;
+	.pubs-content {
+		.item {
+			margin-bottom: 20px;
 		}
-		.title{
+		.title {
 			font-weight: 500;
-
 		}
-		.authors{
+		.authors {
 			font-size: 14px;
-			color:rgb(119, 119, 119);
-			p{
-				margin:0;
+			color: rgb(119, 119, 119);
+			p {
+				margin: 0;
 			}
 		}
-		em{
+		em {
 			font-weight: 400;
 			color: black;
 		}
 
-		.venue{
+		.venue {
 			font-size: 14px;
 		}
 		.links {
-			color:#3f8efc;
+			color: #3f8efc;
 			display: flex;
 			flex-wrap: wrap;
 			font-size: 12px;
 			margin-top: 4px;
-			div{
+			div {
 				margin-right: 8px;
 			}
-			i{
+			i {
 				margin-right: 4px;
 			}
 		}
 	}
-	
+
 	@include media-query($on-palm) {
 		grid-template-columns: auto;
 		margin-top: 0;
-		.section-title{
+		.section-title {
 			justify-self: start;
 			margin-bottom: 8px;
-			br{
-				display:none;
+			br {
+				display: none;
 			}
 		}
 	}
@@ -316,29 +387,31 @@ strong {
 		grid-template-columns: 1fr;
 	}
 
-	h2{
+	h2 {
 		font-size: 20px;
 	}
 
-	h3, h4, h5{
+	h3,
+	h4,
+	h5 {
 		font-size: 18px;
 	}
 
-	.post{
+	.post {
 		padding: 8px;
-		.back-button{
+		.back-button {
 			cursor: pointer;
 			margin-bottom: 12px;
 			display: block;
 		}
 
-		p{
+		p {
 			font-size: 14px;
 			line-height: 1.6;
 		}
 
-		blockquote p{
-			font-size:16px;
+		blockquote p {
+			font-size: 16px;
 		}
 	}
 }

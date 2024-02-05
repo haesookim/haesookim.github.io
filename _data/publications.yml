@@ -11,22 +11,23 @@ topics:
 types:
 
 papers:
-  - title: "The Double-edged Influence of Self-expansion in the Metaverse: A Two-wave Panel Assessment of Identity Perception, Self-esteem and Life Satisfaction"
-    year: 2023
-    author: Soeun Yang* , *Haesoo Kim*\*, Minwoo Song, Seunghyun Lee, Jeong-woo Jang
-    venue: "Cyberpsychology, Behavior, and Social Networking (to appear)"
-    type: paper
-    topics:
-      - social-computing
-      - identity
-
   - title: "Re:SPect: Enabling Active and Scalable Responses to Networked Online Harassment"
-    year: 2023
+    year: 2024
     author: "*Haesoo Kim*, Juhoon Lee, Jeong-woo Jang, Juho Kim"
     venue: "CSCW 2024 (To appear)"
     type: paper
     topics:
       - social-computing
+
+  - title: "The Double-edged Influence of Self-expansion in the Metaverse: A Two-wave Panel Assessment of Identity Perception, Self-esteem and Life Satisfaction"
+    year: 2024
+    author: Soeun Yang* , *Haesoo Kim*\*, Minwoo Song, Seunghyun Lee, Jeong-woo Jang
+    venue: "Cyberpsychology, Behavior, and Social Networking"
+    type: paper
+    file: "https://doi.org/10.1089/cyber.2022.0400"
+    topics:
+      - social-computing
+      - identity
 
   - title: "When Does it Become Harassment?: An Investigation of Online Criticism and Calling Out in Twitter"
     year: 2022
@@ -35,6 +36,7 @@ papers:
     type: paper
     dl-url: https://dl.acm.org/doi/abs/10.1145/3555575
     system-url:
+    video: https://www.youtube.com/watch?v=jT_Qi1fR0Y4
     file: "https://haesookim.info/assets/files/cscw22_callout.pdf"
     topics:
       - social-computing
@@ -89,7 +91,7 @@ posters:
     type: poster
     dl-url:
     system-url:
-    file:
+    file: https://kixlab.github.io/website-files/2023/chi2023-workshop-callout-paper.pdf
     topics:
       - system-building
       - social-computing
@@ -136,7 +138,7 @@ posters:
     venue: "DIS 2019 Provocations and WIPs"
     type: poster
     dl-url: "https://dl.acm.org/doi/10.1145/3301019.3323881"
-    system-url: "http://hyeok.me/miro"
+    system-url: "http://miro.xyz"
     file:
     topics:
       - system-building

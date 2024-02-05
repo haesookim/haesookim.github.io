@@ -1,40 +1,100 @@
-- title: "Calling out behaviors in online spaces"
-  desc: "Observing 'calling-out' behaviors on Twitter in relation to online harassment and determining the similarities and differences between them."
-  long: "Call-out culture, or cancel culture, has been a more and more common phenomenon observed in online spaces. Why do people call out others for social media? What kind of effect might it have towards the people called out, and the people who have witnessed it?"
-  ongoing: true
-  type: research
-  link: ""
+- title: Social Research Simulator
+  url: "https://socialresearchsimulator.pages.dev/"
+  img: srs
+  year: 2023
+  desc: "A web game designed to simulate the experience of being a social researcher in information science. Themes and topics borrowed from the class syllabus of Karen Levy's INFO6620 Social Research Design and Method. Game and UI design referenced from PhD Simulator (Mianzhi Wang) and A Dark Room (DoubleSpeak Games)"
+  tags:
+    - Coursework
+    - Web development
+    - Game development
 
-- title: "Social identity in the Metaverse"
-  desc: "How do identity and social relationships operate in the Metaverse? Exploring how the mediated self affects self-presentation and life satisfaction."
-  long: ""
-  ongoing: true
-  type: research
-  link: ""
+- title: KAIST AI Institute Website
+  year: 2022
+  img: kaistai
+  desc: "Designed, developed and managed the KAIST AI Institute website."
+  url: https://kaist-ai-institute.github.io/
+  tags:
+    - Web development
 
-- title: "Interactivity in remote education"
-  desc: "Facilitating active learning in online environments through the development of learnersourced questions and answers."
-  long: ""
-  ongoing: true
-  type: research
-  link: ""
+- title: Mindscope
+  year: 2021
+  desc:
+  tags:
+    - Research
+    - System design
 
-- title: "Fan-AI interaction"
-  desc: "Exploring K-pop fans' perceptions and expectations toward virtual, synthesized representations of a real-life celebrity through <a href='https://www.universe-official.io/kr/home'>UNIVERSE</a>."
-  long: "How do fans interact with synthesized representations of the celebrity? How can this influence the Fan-Celebrity dynamic in K-pop? We interviewed <a href='https://www.universe-official.io/kr/home'>UNIVERSE</a> users to analyze their perceptions and expectations surrounding such a product. Collaboration with Eun Kang."
-  ongoing: true
-  type: research
-  link: ""
+- title: ISC Online Exhibition (정보문화학 온라인 과제전)
+  year: 2020
+  desc: "Designed and developed the website for the 2020 Spring ISC exhibition '정문과제전 정상영업중 (ISC Exhibition operating as normal)'."
+  tags:
+    - Web development
 
-- title: "Comics A11y"
-  desc: "An interactive webtoon reader that leverages user comments to generate rich, scalable and personalizable alternative text in Webtoons."
-  long: "Despite the prominence of webtoons in popular media, the accessibility of the image-heavy Observing B/VI user needs when reading Webtoons and developing a rich and adaptive description format. We aimed to create rich, scalable alternative text pipelines for Webtoon accessibility. Led by Mina Huh."
-  ongoing: false
-  type: research
-  link: ""
+- title: Facts, Please
+  year: 2021
+  desc: "Interactive educational game developed for SNU FactCheck, allowing users to test out the principles of fact-checking and seek out clues of misinformation"
+  img: factsplease
+  url: https://snu-factchecker.netlify.app/
+  tags:
+    - Web development
+    - Game development
 
-- title: "Mindscope"
-  desc: "Stress prediction and intervention based on mobile sensor data, and observing how users interact with algorithmically generated mental health prediction data"
-  ongoing: false
-  type: research
-  link:
+- title: Starrythoughts (별별생각)
+  year: 2019
+  img: starry
+  desc: "To tackle online opinion polarization, we designed an online system that supports users to express and explore diverse perspectives on social issues. Developed and deployed in collaboration with SBS Design forum 2019."
+  link: https://www.byulbyul.kr/
+  video: https://www.youtube.com/watch?v=GdBJ3pJ5-Ek
+  tags:
+    - Research
+    - System design
+    - Civic design
+
+- title: WearHouse
+  year: 2019
+  img: WearHouse
+  video: https://www.youtube.com/watch?v=4IT6CQgjgUo
+  desc: "2019 Fall Principles and Practices of Software Development term project. More and more people are keeping records of OOTD (outfit-of-the-day) on a daily basis via photo or video, but there is no single service that supports this trend. Wearhouse suggests a simple, intuitive, and systematic way of organizing OOTDs with user-defined tags. The service also pvrovides recommendations on what to wear based on weather data and the user’s outfit history. "
+  tags:
+    - Coursework
+    - System design
+    - Web development
+
+- title: Zipsarang (집사랑)
+  year: 2019
+  img: zipsarang
+  url: https://haesookim.info/ucd-zipsarang/
+  video: https://www.youtube.com/watch?v=hQ8UTS7PTtc
+  desc: "2019 Spring User Centered Design term project. Designing and prototyping a mobile game that aims to break down the psychological barriers toward adopteing rescue animals by implementing serendipitous interaction."
+  tags:
+    - Coursework
+    - System design
+    - Game development
+
+- title: I See, ISC You
+  year: 2019
+  img: isc
+  desc: "The department of Information Science and Culture (ISC) is a place where one of the most diverse collection of individuals could be found within SNU. This project is an attempt to express that diversity by creating a visual language of introductions, drawing data portraits that are capable of telling a personal story."
+  url: https://www.behance.net/gallery/99323849/I-See-ISC-You-What-kind-of-ISC-Alumni-are-you
+  tags:
+    - Coursework
+    - Data Visualization
+
+- title: DIVE IN
+  year: 2019
+  img: divein
+  url: https://store.whale.naver.com/detail/albadkjhneheghaepimgfijhdholmbdg
+  desc: "A browser extension using a simple tree visualization of browser tab hierarchies, allowing users to organize and manage their tabs when using Naver Whale. Won the 3rd place award in 2019 Naver Whale Extension Contest.🏆"
+  tags:
+    - System design
+    - Web development
+
+- title: MiRO (Maze in Real OS)
+  year: 2018
+  url: http://miro.xyz/
+  img: miro
+  desc: "A web-based game that employs Media-as-Place storytelling techniques for immersive experience of digital narratives."
+  tags:
+    - System design
+    - Web development
+    - Game development
+    - Research

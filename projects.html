@@ -3,4 +3,36 @@ layout: projects
 title: Projects
 ---
 
-<div>projects</div>
+<div class="section-title">PROJECTS</div>
+<div class="section-subtitle">
+	A selection of previous projects that I have done, for research, coursework, and of course, for
+	fun. (Updated constantly!)
+</div>
+
+<div id="project-wrapper">
+	{% for item in site.data.projects %} {% if item.img != null %}
+	<div class="project-item">
+		<div><img src=assets/images/projects/{{item.img}}.png/></div>
+		<div class="project-title">{{item.title}}</div>
+		<div class="project-desc">{{item.desc}}</div>
+		<div class="links">
+			{% if item.url != null %}
+			<div>
+				<i class="fa-solid fa-link"></i>
+				<a href="{{item.prj-url}}">Link</a>
+			</div>
+			{% endif %} {% if item.video != null %}
+			<div>
+				<i class="fa-solid fa-video"></i>
+				<a href="{{item.video}}">Video</a>
+			</div>
+			{% endif %}
+		</div>
+		<div class="tag-wrapper">
+			{% for tag in item.tags %}
+			<div class="project-tag">{{tag}}</div>
+			{% endfor %}
+		</div>
+	</div>
+	{% endif %} {% endfor %}
+</div>
