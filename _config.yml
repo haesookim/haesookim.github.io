@@ -20,21 +20,22 @@
 title: Haesoo Kim
 email: haesoo1108@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-    Haesoo is a HCI researcher at KIXLAB, KAIST.
+  Haesoo is a HCI researcher at KIXLAB, KAIST.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://haesookim.info" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: haesooheatherk
 github_username: haesookim
+permalink: pretty
 
 disqus:
-    shortname: haesookim
+  shortname: haesookim
 
 # Build settings
 theme: minima
 markdown: kramdown
 plugins:
-    - jekyll-feed
-    - jekyll-paginate
+  - jekyll-feed
+  - jekyll-paginate
 
 paginate: 5
 paginate_path: "/blog/:num/"
@@ -48,18 +49,18 @@ paginate_path: "/blog/:num/"
 # their entries' file path in the `include:` list.
 #
 exclude:
-    - .sass-cache/
-    - .jekyll-cache/
-    - gemfiles/
-    - Gemfile
-    - Gemfile.lock
-    - node_modules/
-    - vendor/bundle/
-    - vendor/cache/
-    - vendor/gems/
-    - vendor/ruby/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 keep_files:
-    - "CNAME"
-    - ".git"
-    - ".gitignore"
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
