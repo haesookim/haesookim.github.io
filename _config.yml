@@ -20,7 +20,7 @@
 title: Haesoo Kim
 email: haesoo1108@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Haesoo is a HCI researcher at KIXLAB, KAIST.
+  Haesoo is a HCI and Social Computing researcher at Cornell University Information Science.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://haesookim.info" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: haesooheatherk
@@ -59,6 +59,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - .DS_Store
 
 keep_files:
   - "CNAME"
