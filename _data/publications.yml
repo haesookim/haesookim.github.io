@@ -1,7 +1,7 @@
 topics:
   - system-building
   - social-computing
-  - xai
+  - hai
   - data-driven
   - gaming
   - accessibility
@@ -11,13 +11,24 @@ topics:
 types:
 
 papers:
+  - title: "Can Fans Build Parasocial Relationships through Idols’ Simulated Voice Messages?: A Study of AI Private Call Users’ Perceptions, Cognitions, and Behaviors"
+    year: 2024
+    author: "Eun Jeong Kang, *Haesoo Kim*, Hyunwoo Kim, Susan Fussell, Juho Kim"
+    Venue: "CSCW 2025 (To appear)"
+    type: paper
+    topics:
+      - hai
+
   - title: "Re:SPect: Enabling Active and Scalable Responses to Networked Online Harassment"
     year: 2024
     author: "*Haesoo Kim*, Juhoon Lee, Jeong-woo Jang, Juho Kim"
-    venue: "CSCW 2024 (To appear)"
+    venue: "CSCW 2024"
     type: paper
+    file: "https://haesookim.info/assets/files/cscw24_respect.pdf"
+    dl-url: "https://dl.acm.org/doi/10.1145/3637394"
     topics:
       - social-computing
+      - system-building
 
   - title: "The Double-edged Influence of Self-expansion in the Metaverse: A Two-wave Panel Assessment of Identity Perception, Self-esteem and Life Satisfaction"
     year: 2024
@@ -51,7 +62,7 @@ papers:
     file: "https://haesookim.info/assets/files/chi22_mindscope.pdf"
     topics:
       - system-building
-      - xai
+      - hai
       - data-driven
       - mental-health
 
