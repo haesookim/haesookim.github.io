@@ -31,7 +31,14 @@ permalink: /about/
 	to explore how these communities influence or mediate this process.
 </p>
 
-<p>I'm also a firm believer in helping people, as well as making the world a better place.</p>
+<p>
+	I'm also a firm believer in helping people, as well as making the world a better place. As
+	researchers, we have access to a unique lens into the world that allows us to observe and attempt
+	to change the world around us. My research introduces me to a lot of malice and bad experiences --
+	but at the same time, it allows me to see how people perservere through the strength of human
+	connections and community. I would like to be able to contribute to this cycle of support, through
+	my work and personal life as well.
+</p>
 
 <div style="margin-bottom: 80px"></div>
 
@@ -78,9 +85,9 @@ permalink: /about/
 				<div>{{item.position}}</div>
 				{% if item.advisor != null %}
 				<div class="advisor">
-					Advised by {% if item.advisor.size >= 2 %} {% for advisor in item.advisor %}
+					Advised by {% for advisor in item.advisor %}
 					<a href="{{advisor.url}}">{{advisor.name}}</a>{% unless forloop.last %}, {% endunless %}
-					{% endfor %} {% endif %}
+					{% endfor %}
 				</div>
 				{% endif %}
 			</div>
