@@ -11,10 +11,36 @@ topics:
 types:
 
 papers:
+  - title: "AI-facilitated Coercive Control: An Experimental Study"
+    year: 2026
+    author: "*Haesoo Kim*, Thomas Ristenpart, Nicola Dell"
+    venue: "CHI 2026 (To appear)"
+    type: paper
+    file: "https://haesookim.info/assets/files/chi26_aifcc.pdf"
+    dl-url: "https://dl.acm.org/doi/abs/10.1145/3772318.3790859"
+    topics:
+
+  - title: "Collaborative Upstanding: Exploring Conversational Strategies for Cyberbullying Upstanding Education"
+    year: 2026
+    author: "*Haesoo Kim*, Nader Akoury, Julia Sebastien, S. Isabelle McLeod-Daphnis, Ryun Shim, Natalie Bazarova, Qian Yang"
+    venue: "CHI 2026 (To appear)"
+    type: paper
+    file: "https://haesookim.info/assets/files/chi26_concur.pdf"
+    dl-url: "https://dl.acm.org/doi/abs/10.1145/3772318.3791859"
+    topics:
+
+  - title: "'My body is not your Porn': Identifying Trends of Harm and Oppression through a Sociotechnical Genealogy of Digital Sexual Violence in South Korea"
+    year: 2026
+    author: Inha Cha\*, Yeonju Jang\*, *Haesoo Kim*\*, Jooyoung Park\*, Seora Park\*, Eun Jeong Cheon
+    venue: "CSCW 2026 (To appear)"
+    type: paper
+    dl-url: "https://dl.acm.org/doi/abs/10.1145/3788066"
+    topics:
+
   - title: "Can Fans Build Parasocial Relationships through Idols’ Simulated Voice Messages?: A Study of AI Private Call Users’ Perceptions, Cognitions, and Behaviors"
     year: 2025
     author: "Eun Jeong Kang, *Haesoo Kim*, Hyunwoo Kim, Susan Fussell, Juho Kim"
-    Venue: "CSCW 2025 (To appear)"
+    venue: "CSCW 2025"
     type: paper
     dl-url: "https://dl.acm.org/doi/abs/10.1145/3711111"
     topics:
