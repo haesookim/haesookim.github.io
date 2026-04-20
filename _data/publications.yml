@@ -14,7 +14,7 @@ papers:
   - title: "AI-facilitated Coercive Control: An Experimental Study"
     year: 2026
     author: "*Haesoo Kim*, Thomas Ristenpart, Nicola Dell"
-    venue: "CHI 2026 (To appear)"
+    venue: "CHI 2026"
     type: paper
     file: "https://haesookim.info/assets/files/chi26_aifcc.pdf"
     dl-url: "https://dl.acm.org/doi/abs/10.1145/3772318.3790859"
@@ -23,7 +23,7 @@ papers:
   - title: "Collaborative Upstanding: Exploring Conversational Strategies for Cyberbullying Upstanding Education"
     year: 2026
     author: "*Haesoo Kim*, Nader Akoury, Julia Sebastien, S. Isabelle McLeod-Daphnis, Ryun Shim, Natalie Bazarova, Qian Yang"
-    venue: "CHI 2026 (To appear)"
+    venue: "CHI 2026"
     type: paper
     file: "https://haesookim.info/assets/files/chi26_concur.pdf"
     dl-url: "https://dl.acm.org/doi/abs/10.1145/3772318.3791859"
